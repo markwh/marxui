@@ -1,0 +1,4 @@
+name: pasta-default
+description: >
+   Default template for pasting text info
+create_dir: FALSE

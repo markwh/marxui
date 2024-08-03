@@ -1,12 +1,13 @@
-Package: homeroom
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Package: marxui
+Title: Hacking the RStudio user interface for personal productivity
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Mark", "Hagemann", , "mark.hagemann@gmail.com", role = c("aut", "cre"))
+Description: Functions for managing projects, code, and data.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Imports: 
+    rmarkdown,
+    rstudioapi
